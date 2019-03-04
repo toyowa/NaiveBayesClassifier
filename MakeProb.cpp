@@ -101,10 +101,10 @@ void MakeProb::execTest(){
 }
 
 void MakeProb::make(int datanum){
-    //makeProbability(datanum);
-    //saveProbabilities();
-    readProbabilities();
-    execTest();
+    makeProbability(datanum);
+    saveProbabilities();
+    //readProbabilities();
+    //execTest();
 }
 
 int MakeProb::bayes(int x[]){
