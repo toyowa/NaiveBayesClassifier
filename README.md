@@ -26,3 +26,5 @@ void MakeProb::make(int datanum){
 なお、データファイルは、元のMNISTデータをテキストファイルに変形しているが、ここでは大きすぎて載せられないのではと思う。
 
 データの読み取り関数を見れば、フォーマットがわかると思う。
+
+http://www.ibot.co.jp/wpibot/
