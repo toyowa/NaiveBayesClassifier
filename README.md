@@ -5,21 +5,21 @@ make
 
 ただ、現状は、学習だけになっているが
 
-void MakeProb::make(int datanum){
-    makeProbability(datanum);
-    saveProbabilities();
-    //readProbabilities();
-    //execTest();
-}
+void MakeProb::make(int datanum){  
+    makeProbability(datanum);  
+    saveProbabilities();  
+    //readProbabilities();  
+    //execTest();  
+}  
 
 の部分を
 
-void MakeProb::make(int datanum){
-    //makeProbability(datanum);
-    //saveProbabilities();
-    readProbabilities();
-    execTest();
-}
+void MakeProb::make(int datanum){  
+    //makeProbability(datanum);  
+    //saveProbabilities();  
+    readProbabilities();  
+    execTest();  
+}  
 
 と変更すれば、テストを実行する。
 
